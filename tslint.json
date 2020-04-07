@@ -1,0 +1,95 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-react-hooks",
+        "tslint-eslint-rules",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "switch-default": false,
+        "interface-name": true,
+        "semicolon": false,
+        "quotemark": [true, "single", "jsx-double"],
+        "no-console": false,
+        "no-empty": false,
+        "no-shadowed-variable": false,
+        "object-literal-sort-keys": false,
+        "ordered-imports": [
+            true,
+            {
+                "grouped-imports": true,
+                "groups": [
+                    {
+                        "name": "react",
+                        "match": "^react",
+                        "order": 1
+                    },
+                    {
+                        "name": "library",
+                        "match": "^libs",
+                        "order": 3
+                    },
+                    {
+                        "name": "types",
+                        "match": "^types",
+                        "order": 4
+                    },
+                    {
+                        "name": "constants",
+                        "match": "^constants",
+                        "order": 5
+                    },
+                    {
+                        "name": "data",
+                        "match": "^data",
+                        "order": 6
+                    },
+                    {
+                        "name": "modules",
+                        "match": "^modules",
+                        "order": 7
+                    },
+                    {
+                        "name": "sagas",
+                        "match": "^sagas",
+                        "order": 8
+                    },
+                    {
+                        "name": "pages",
+                        "match": "^pages",
+                        "order": 9
+                    },
+                    {
+                        "name": "templates",
+                        "match": "^components/templates",
+                        "order": 10
+                    },
+                    {
+                        "name": "organisms",
+                        "match": "^components/organisms",
+                        "order": 11
+                    },
+                    {
+                        "name": "molecules",
+                        "match": "^components/molecules",
+                        "order": 12
+                    },
+                    {
+                        "name": "atoms",
+                        "match": "^components/atoms",
+                        "order": 13
+                    },
+                    {
+                        "name": "node_modules",
+                        "match": ".*",
+                        "order": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "rulesDirectory": []
+}
