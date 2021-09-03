@@ -9,7 +9,7 @@
         "@emotion/core": "^10.0.28",
         "axios": "^0.19.2",
         "dotenv": "^8.2.0",
-        "immer": "^6.0.1",
+        "immer": "^9.0.6",
         "immer-reducer": "^0.7.10",
         "next": "^9.3.0",
         "next-redux-wrapper": "^5.0.0",
